@@ -1,0 +1,7 @@
+beautifulsoup4
+requests
+pdfplumber
+pandas
+zipfile36
+flask
+flask-cors

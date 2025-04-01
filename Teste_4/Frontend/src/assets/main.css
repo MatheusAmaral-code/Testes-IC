@@ -1,0 +1,45 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+thead {
+  background-color: #00cdb5;
+  color: rgb(0, 0, 0);
+}
+
+thead th {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+thead th:first-child {
+  border-radius: 0px 0px 0px 6px;
+}
+
+thead th:last-child {
+  border-radius: 0px 0px 6px 0px;
+}
+
+tbody tr:hover {
+  background-color: #353535;
+}
+
+tbody td {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+}
